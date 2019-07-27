@@ -1,2 +1,3 @@
 # pygame
-bouncing ball with pygame, some testing and playing aroung
+Pygame - bouncing ball
+trying out Pygame with a bouncing ball that has gravity
