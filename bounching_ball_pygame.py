@@ -14,7 +14,7 @@ framerate = 60
 clock = pg.time.Clock()
 
 ball = pg.image.load("intro_ball.gif")
-moon = pg.image.load("sat1.gif")
+moon = pg.image.load("intro_ball.gif")
 
 ballrect = ball.get_rect()
 moonrect = moon.get_rect()
@@ -38,7 +38,7 @@ while True:
 	else:
 		speed[1] = speed[1] + 0.981 * dt
 	#moon
-	moonrect = moonrect.move(speed)
+	moonrect = moonrect.move(speed_m)
 	if moonrect.left < 0 or moonrect.right > width:
 		speed_m[0] = -speed_m[0]
 	if moonrect.top < 0 or moonrect.bottom > height:
